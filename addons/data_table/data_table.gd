@@ -1,3 +1,4 @@
+@icon("res://addons/data_table/data_table.png")
 extends Resource
 class_name DataTable
 
