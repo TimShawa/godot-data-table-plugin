@@ -2,7 +2,7 @@
 extends RichTextLabel
 
 
-const MAX_CELL_LEN = 50
+const MAX_CELL_LEN = 80
 const PADDING = Rect2(10,7,10,5)
 
 
@@ -73,5 +73,5 @@ func var2str(value):
 		_:
 			text = var_to_str(value)
 	if len(text) > MAX_CELL_LEN:
-		text = text.left(-1) + "…"
+		text = text.left(MAX_CELL_LEN - 1) + "…"
 	return text
