@@ -1,9 +1,12 @@
 # Dev supporting ignores
 addons/nv.file_system/
-addons/tablepager/
+kanban_*
+addons/ColorPreview/
+new_script.gd
 
 # Godot 4+ specific ignores
 .godot/
+project.godot
 
 # Godot-specific ignores
 .import/

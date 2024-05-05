@@ -16,7 +16,7 @@ config/icon="res://icon.png"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/data_table/plugin.cfg", "res://addons/nv.file_system/plugin.cfg", "res://addons/tablepager/plugin.cfg")
+enabled=PackedStringArray("res://addons/ColorPreview/plugin.cfg", "res://addons/data_table/plugin.cfg", "res://addons/kanban_tasks/plugin.cfg", "res://addons/nv.file_system/plugin.cfg", "res://addons/tablepager/plugin.cfg")
 
 [rendering]
 
